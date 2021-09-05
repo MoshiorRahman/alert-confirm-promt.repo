@@ -19,8 +19,9 @@ const askPicnic = () => {
 
 const askName = () => {
     const name = prompt('what is your naem?')
+    const takeField = document.getElementById('take-name')
     if (name) {
-        console.log(name)
+        takeField.append(name)
     }
 }
 
