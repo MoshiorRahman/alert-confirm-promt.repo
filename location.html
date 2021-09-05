@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>location</title>
+</head>
+
+<body>
+    <h1>location</h1>
+    <button onclick="refreshPage()">Refresh</button>
+    <button onclick="visitPh()">Visit PH</button>
+    <button onclick="goMyFacebook()">My facebook</button>
+
+    <script>
+        const refreshPage = () => {
+            location.reload();
+        }
+        const visitPh = () => {
+            location.assign('https://web.programming-hero.com/course/video/web-4-38-3-location-url-parts-query-string-href-hash-assign-reload')
+        }
+        const goMyFacebook = () => {
+            location.assign('https://www.facebook.com/moshior.rahman.737')
+        }
+    </script>
+</body>
+
+</html>
